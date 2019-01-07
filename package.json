@@ -1,0 +1,65 @@
+{
+  "name": "react-responsive-props",
+  "version": "0.0.1",
+  "description": "React hoc that passes  down props based on mediaQuery matches",
+  "main": "lib/index.js",
+  "author": "Dosty Everts",
+  "license": "ISC",
+  "scripts": {
+    "build": "npm run clean && tsc",
+    "clean": "rimraf lib",
+    "storybook": "start-storybook -p 6006",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/evertsd/react-responsive-props.git"
+  },
+  "files": [
+    "package.json",
+    "README.md",
+    "LICENSE",
+    "index.js"
+  ],
+  "bugs": {
+    "url": "https://github.com/evertsd/react-responsive-props/issues"
+  },
+  "homepage": "https://github.com/evertsd/react-responsive-props",
+  "keywords": [],
+  "devDependencies": {
+    "@babel/cli": "*",
+    "@babel/core": "*",
+    "@babel/preset-react": "*",
+    "@babel/preset-typescript": "*",
+    "@storybook/addon-info": "v4.0.9",
+    "@storybook/react": "v4.0.9",
+    "@types/jest": "*",
+    "@types/react": "*",
+    "@types/storybook__react": "*",
+    "babel-core": "*",
+    "babel-eslint": "*",
+    "babel-jest": "*",
+    "babel-loader": "*",
+    "babel-plugin-transform-class-properties": "*",
+    "babel-plugin-transform-export-extensions": "*",
+    "babel-plugin-transform-object-rest-spread": "*",
+    "eslint": "*",
+    "eslint-config-standard": "*",
+    "eslint-config-standard-react": "*",
+    "eslint-plugin-import": "*",
+    "eslint-plugin-node": "*",
+    "eslint-plugin-promise": "*",
+    "eslint-plugin-react": "*",
+    "eslint-plugin-standard": "*",
+    "jest": "*",
+    "react": "v16.7.0-alpha.0",
+    "react-docgen-typescript-webpack-plugin": "*",
+    "react-dom": "v16.7.0-alpha.0",
+    "rimraf": "*",
+    "ts-jest": "*",
+    "ts-loader": "*",
+    "tslint": "*",
+    "tslint-config-standard": "*",
+    "typescript": "*"
+  }
+}
