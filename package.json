@@ -1,7 +1,7 @@
 {
   "name": "react-responsive-props",
-  "version": "0.0.2",
-  "description": "React hoc that passes  down props based on mediaQuery matches",
+  "version": "0.0.3",
+  "description": "React hoc that passes down props based on mediaQuery matches",
   "main": "lib/index.js",
   "types" : "lib/index.d.ts",
   "author": "Dosty Everts",
@@ -16,12 +16,6 @@
     "type": "git",
     "url": "git://github.com/evertsd/react-responsive-props.git"
   },
-  "files": [
-    "package.json",
-    "README.md",
-    "LICENSE",
-    "index.js"
-  ],
   "bugs": {
     "url": "https://github.com/evertsd/react-responsive-props/issues"
   },
